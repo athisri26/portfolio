@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Athisri K | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <h1>Athisri K</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#internship">Internship</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/your-linkedin-id" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <div class="text-content">
+        <h2>Hello I'm <span>Athisri K</span></h2>
+        <p>Passionate and detail-oriented developer skilled in Java, web technologies, and backend systems. I love building practical and elegant solutions to real-world problems. Experienced in full-stack development and collaborative teamwork with a focus on writing clean, maintainable code.</p>
+        <p>I take initiative in learning new tools, participating in mapathons and internships, and improving my technical skills daily.</p>
+        <div class="buttons">
+          <a href="#contact" class="btn">Hire Me</a>
+          <a href="#projects" class="btn outline">See Projects</a>
+        </div>
+      </div>
+      <div class="image-content">
+        <img src="profile.jpg" alt="Athisri Profile" class="profile-img" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2><i class="fas fa-user-circle"></i> About Me</h2>
+      <p>I am a 4th-year Computer Science student from Vivekanandha College (GPA: 7.87), with strong interest in web development, backend programming, and database systems.</p>
+      <ul>
+        <li>Strong understanding of OOP, database schema design, and MVC architecture</li>
+        <li>Developed multiple full-stack projects with real-life use cases</li>
+        <li>Participated in Mapathon using QGIS to contribute to urban safety initiatives</li>
+        <li>Consistent in self-learning through online courses, hands-on practice, and internships</li>
+        <li>Collaborative team player with Git experience and project management skills</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="section dark">
+    <div class="container">
+      <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+      <ul class="skills-detailed">
+        <li><strong>Java:</strong> Excellent in backend logic, OOP concepts, and application development</li>
+        <li><strong>Python:</strong> Beginner-level – basic scripts, file handling, and Flask framework</li>
+        <li><strong>HTML & CSS:</strong> Strong – responsive UI design, Flexbox/Grid, media queries</li>
+        <li><strong>JavaScript:</strong> Intermediate – DOM manipulation, event handling, form validation</li>
+        <li><strong>SQL:</strong> Basic – queries, joins, database creation, and CRUD operations</li>
+        <li><strong>Flask & MySQL:</strong> Integrated backend with login systems and REST APIs</li>
+        <li><strong>Git & GitHub:</strong> Version control, pull requests, and collaboration</li>
+        <li><strong>APIs:</strong> Consumed REST APIs to dynamically update pages</li>
+        <li><strong>Tools:</strong> VS Code, Postman, Google Maps API, QGIS</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2><i class="fas fa-folder-open"></i> Projects</h2>
+
+      <div class="project">
+        <h3>Cinema Ticket Booking System</h3>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <p><a href="https://github.com/athisri26/cinema-ticket" target="_blank"><i class="fab fa-github"></i> View Source on GitHub</a></p>
+        <ul>
+          <li>Developed a fully functional movie ticket booking interface with real-time seat selection and pricing.</li>
+          <li>Created an interactive seat layout grid using JavaScript DOM manipulation.</li>
+          <li>Used localStorage to persist selected seats and total price data.</li>
+          <li>Designed simulated UPI payment interface with GPay and PhonePe options using modal windows.</li>
+          <li>Implemented form validation and feedback alerts for better user experience.</li>
+          <li>Ensured mobile responsiveness using Flexbox and media queries.</li>
+          <li>Improved user interaction with hover effects, button animations, and clear CTA flows.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>College Event Management System (Flask + MySQL)</h3>
+        <p><strong>Technologies:</strong> Python (Flask), MySQL, HTML, CSS, Bootstrap</p>
+        <p><a href="https://github.com/athisri26/web-project" target="_blank"><i class="fab fa-github"></i> View Source on GitHub</a></p>
+        <ul>
+          <li>Built a secure full-stack event management platform for college administration.</li>
+          <li>Created login and registration system with password encryption and session management.</li>
+          <li>Implemented CRUD functionality (Create, Read, Update, Delete) for event data using Flask routes and MySQL queries.</li>
+          <li>Used Jinja2 templates for dynamic content rendering and user-specific views.</li>
+          <li>Validated user input on both client and server sides for data security.</li>
+          <li>Applied Bootstrap for responsive UI layout and consistent component styling.</li>
+          <li>Tested the system for multiple user roles (admin vs student) with access control.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Pedestrian Safety Mapping (Mapathon Project)</h3>
+        <p><strong>Technologies:</strong> QGIS, ArcGIS, OpenStreetMap, Spatial Data Analysis</p>
+        <ul>
+          <li>Analyzed traffic accident data to identify accident hotspots and pedestrian danger zones in Salem Road.</li>
+          <li>Used QGIS tools to geotag locations, perform spatial joins, and generate heatmaps.</li>
+          <li>Created layered maps with OpenStreetMap integration for better visualization.</li>
+          <li>Submitted findings as part of a national Mapathon initiative to contribute to urban safety planning.</li>
+          <li>Collaborated with peers to refine map data and presentation format for official use.</li>
+          <li>Practiced real-world mapping skills including shapefile editing, data cleaning, and georeferencing.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="internship" class="section dark">
+    <div class="container">
+      <h2><i class="fas fa-briefcase"></i> Internship Experience</h2>
+      <p><strong>Web Development Intern – DigiDara Technologies Pvt Ltd (2026)</strong></p>
+      <ul>
+        <li>Developed user-friendly websites using HTML5, CSS3, and JavaScript for real business clients</li>
+        <li>Improved load speed by optimizing assets, CSS rules, and JavaScript execution</li>
+        <li>Integrated REST APIs to display live data and make frontend dynamic</li>
+        <li>Used GitHub for version control and collaborated with senior developers</li>
+        <li>Understood real project workflows including agile development and client revisions</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2><i class="fas fa-envelope"></i> Send Me a Message</h2>
+      <p>If you’d like to get in touch, click the button below to fill out my contact form.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1ifbnS52vNQRrYIuN4EownUDhupCzlh91sz0P6k8cWF7g1w/viewform?usp=header" target="_blank">
+        <button class="contact-button">Open Contact Form</button>
+      </a>
+      <div class="contact-info">
+        <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+        <p><strong>Email:</strong> athi13058@example.com</p>
+        <p><strong>Phone:</strong> +91 6374853688</p>
+        <p><strong>Location:</strong> Tamil Nadu, India</p>
+        <p><strong>LinkedIn:</strong> <a href="http://linkedin.com/in/athi-sri-52010b292" target="_blank">linkedin.com/in/your-linkedin-id</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/athisri26?tab=repositories" target="_blank">github.com/yourusername</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Athisri K. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
